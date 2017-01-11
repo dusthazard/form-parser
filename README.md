@@ -4,6 +4,8 @@
 
 This PHP class will parse a webform, and extract it's various settings needed to recreate a new web form that includes all necessary inputs, labels, actions and methods.
 
+This class was created for an app that needed to allow a user to input their web form from multiple sources (mailchimp, aweber etc.) and have that form be implemented into a web page programmatically and without the need to connect to multiple APIs.
+
 ## USAGE
 
 Include the class in your php app:
