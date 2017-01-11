@@ -1,6 +1,6 @@
 <?php
 
-class lprs_form_parser {
+class form_parser {
 
   public $DOMforms,$forms = array();
   
@@ -19,10 +19,6 @@ class lprs_form_parser {
   function __construct($optincode = "") {
   
     if($optincode !== "") {
-    
-        // check first to see if the code is a shortcode
-        
-        $optincode = do_shortcode($optincode);
     
         // load the optin form code
   
