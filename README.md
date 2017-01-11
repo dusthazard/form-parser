@@ -4,7 +4,7 @@
 
 This PHP class will parse a webform, and extract it's various settings needed to recreate a new web form that includes all necessary inputs, labels, actions and methods.
 
-# USAGE
+## USAGE
 
 Include the class in your php app:
 
