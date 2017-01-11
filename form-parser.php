@@ -60,6 +60,7 @@ class form_parser {
       
       $this->forms[$i]['method'] = $form->getAttribute('method');
       $this->forms[$i]['action'] = $form->getAttribute('action');
+      $this->forms[$i]['target'] = $form->getAttribute('target');
     
       // get the stylesheets
     
