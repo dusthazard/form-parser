@@ -30,6 +30,7 @@ You will now have an array of elements and attributes from the form:
   forms: [ // array of forms contained in the string
     {
       label: string,              // label text (if found)
+      target: string,             // target attribute from form element
       method: string,             // method attribute from form element
       action: string,             // action attribute from form element
       stylesheets: array(),       // array of stylesheets from the HTML code (in HTML format)
